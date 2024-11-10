@@ -34,6 +34,10 @@ Para rodar o modelo em GPU, utilize o seguinte comando:
 ```bash
 python3 chat_gpu.py
 ```
+### Modelos
+https://huggingface.co/TheBloke/Llama-2-7B-chat-GGUF
+https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF
+https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF
 
 ## Atividade
 Rodar e testar o modelo Llama 2, especialmente nas versões de 7B e 13B. Para um desempenho eficiente em configurações locais, utilize uma GPU com pelo menos 4GB de memória e 16GB de RAM.
