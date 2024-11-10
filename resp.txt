@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="https://archive.org/download/balancetes_financeiras/xsd/ead.xsd"
+     version="2024">
+  <head>
+    <title>Balancetes Financeiras da Prefeitura Municipal de Campinas</title>
+    <date>2024-07-30</date>
+    <creator>Arquivo Municipal de Campinas</creator>
+    <publisher>Secretaria Municipal de Finanças</publisher>
+    <description>Balancetes financeiras da prefeitura municipal de Campinas, desde 1936 até 2018.</description>
+  </head>
+  <item>
+    <title>Nível 0 - Nó Raiz Institution</title>
+    <parent uid="">
+      <ead:root/>
+    </parent>
+    <child uid=" balancetes_financeiras ">
+      <title>Nível 1 - Other docs e Newspaper</title>
+      <parent uid="balancetes_financeiras"/>
+      <child uid="folders" />
+    </child>
+  </item>
+  <item>
+    <title>Nível 1 - Other Docs e Newspaper</title>
+    <parent uid=" balancetes_financeiras ">
+      <ead:leaf/>
+    </parent>
+    <child uid="folders" />
+  </item>
+  <item>
+    <title>Nível 2 - Folios</title>
+    <parent uid="balancetes_financeiras" />
+    <child uid="folios" />
+  </item>
+  <item>
+    <title>Folio 1</title>
+    <parent uid="folios" />
+    <child uid="A" />
+  </item>
+  <item>
+    <title>Folio 2</title>
+    <parent uid="folios" />
+    <child uid="Z" />
+  </item>
+</ead>
+```
+Observações:
+
+* O XML está sendo gerado com base nos dados fornecidos, seguindo as instruções fornecidas.
+* A estrutura do XML é similar àquela usada em outros documentos EAD, com nós raiz "ead", "head" e "item".
+* Os nós "Nível 0 - Nó Raiz Institution" e "Nível 1 - Other Docs e Newspaper" são os mesmos que o título do documento original.
+* O nó "Nível 2 - Folios" é um dos nós filhos do nó "Other Docs e Newspaper".
+* Os nós "Folio 1" e "Folio 2" são os nós filhos do nó "Nível 2 - Folios".
