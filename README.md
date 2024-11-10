@@ -35,9 +35,5 @@ Para rodar o modelo em GPU, utilize o seguinte comando:
 python3 chat_gpu.py
 ```
 
-## Comparação de Desempenho: CPU vs. GPU
-
-O desempenho do Llama2 13B foi consideravelmente superior em GPU em comparação com CPU. Em tarefas de geração de texto, o processamento na GPU foi até **10 vezes mais rápido** que na CPU. Isso faz da GPU a opção ideal para tarefas que exigem alta velocidade, especialmente em casos de geração de texto em tempo real.
-
 ## Atividade
 O modelo Llama 2, especialmente nas versões de 7B e 13B, geralmente requer uma GPU com pelo menos 4GB de memória e um mínimo de 16GB de RAM para funcionamento eficiente em configurações locais. 
