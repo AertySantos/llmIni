@@ -16,20 +16,29 @@
    pip install -r requirements.txt
    ```
 ## Testes iniciais
-Foram realizados testes com os modelos Llama2 de tamanhos 7B, 13B e 70B. 
-Os testes foram realizados primeiro em CPU e depois em GPU.
-É necessario baixar o modelo para pasta models.
 
-Os modelos Llama2 foram eficientes e escaláveis em CPU. No entanto, ainda havia espaço para melhorias no desempenho de tarefas de geração de texto.
-1. Execute o seguinte comando no terminal para executar o Llama2 via Cpu:
-   ```
-   python3 chat_cpu.py
-   ```
-O desempenho dos modelos Llama2 foi significativamente melhorado em GPU. As tarefas de geração de texto foram executadas até 10 vezes mais rápido em GPU do que em CPU.
+Este exemplo demonstra como utilizar o modelo Llama2 13B. O mesmo processo pode ser adaptado para outros modelos com configurações semelhantes. Os testes foram realizados tanto em CPU quanto em GPU para comparar o desempenho. **Nota:** Certifique-se de baixar o modelo e salvá-lo na pasta `models`.
 
-2. Execute o seguinte comando no terminal para executar o Llama2 via Gpu:
-   ```
-   python3 chat_gpu.py
-   ```
+## Instruções de Execução
+
+### 1. Execução do Llama2 via CPU
+Para rodar o modelo em CPU, utilize o comando abaixo no terminal:
+
+```bash
+python3 chat_cpu.py
+```
+
+### 2. Execução do Llama2 via GPU
+Para rodar o modelo em GPU, utilize o seguinte comando:
+
+```bash
+python3 chat_gpu.py
+```
+
+## Comparação de Desempenho: CPU vs. GPU
+
+O desempenho do Llama2 13B foi consideravelmente superior em GPU em comparação com CPU. Em tarefas de geração de texto, o processamento na GPU foi até **10 vezes mais rápido** que na CPU. Isso faz da GPU a opção ideal para tarefas que exigem alta velocidade, especialmente em casos de geração de texto em tempo real.
+
+---
 ## Atividade
 O modelo Llama 2, especialmente nas versões de 7B e 13B, geralmente requer uma GPU com pelo menos 4GB de memória e um mínimo de 16GB de RAM para funcionamento eficiente em configurações locais. 
