@@ -36,7 +36,9 @@ python3 chat_gpu.py
 ```
 ### Modelos
 https://huggingface.co/TheBloke/Llama-2-7B-chat-GGUF
+
 https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF
+
 https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF
 
 ## Atividade
