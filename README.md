@@ -7,7 +7,8 @@
    ```
 2. Crie um ambiente virtual com conda e ative-o. Primeiro, certifique-se de ter o conda instalado. Em seguida, execute o seguinte comando:
    ```
-   conda create -n llms python=3.11 -y && source activate llms
+   conda create -n llms python=3.11 -y
+   conda activate llms
    ```
 
 3. Execute o seguinte comando no terminal para instalar os pacotes Python necessários:
