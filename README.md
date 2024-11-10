@@ -36,4 +36,4 @@ python3 chat_gpu.py
 ```
 
 ## Atividade
-O modelo Llama 2, especialmente nas versões de 7B e 13B, geralmente requer uma GPU com pelo menos 4GB de memória e um mínimo de 16GB de RAM para funcionamento eficiente em configurações locais. 
+Rodar e testar o modelo Llama 2, especialmente nas versões de 7B e 13B. Para um desempenho eficiente em configurações locais, utilize uma GPU com pelo menos 4GB de memória e 16GB de RAM.
