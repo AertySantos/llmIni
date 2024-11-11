@@ -43,3 +43,11 @@ https://huggingface.co/TheBloke/Llama-2-70B-chat-GGUF
 
 ## Atividade
 Rodar e testar o modelo Llama 2, especialmente nas versões de 7B e 13B. Para um desempenho eficiente em configurações locais, utilize uma GPU com pelo menos 4GB de memória e 16GB de RAM.
+
+## Referências
+https://python.langchain.com/docs/integrations/llms/llamacpp/#cpu
+
+https://www.llama.com/docs/model-cards-and-prompt-formats/meta-llama-2/
+
+https://replicate.com/blog/how-to-prompt-llama
+
